@@ -1,10 +1,10 @@
-from kivymd.app import MDApp
+from kivymd.app import MDApp                 # Importing all the necessary libraries
 from kivy.lang import Builder
 from kivy.properties import ObjectProperty
 from kivymd.uix.dialog import MDDialog
 from kivymd.uix.button import MDFlatButton
 
-kv = """
+kv = """                                   # KV string for GUI
 Screen:
     in_class: text
     MDLabel:
@@ -40,19 +40,19 @@ Screen:
 
 
 """
-class MainApp(MDApp):
+class MainApp(MDApp):             #Creating a class for the app
     in_class = ObjectProperty(None)
 
     def build(self):
-        return Builder.load_string(kv)
+        return Builder.load_string(kv)     #Loading the KV String
 
     def greet(self):
         self.dialog = MDDialog(title='Greeting you', text="Hello %s!" %(self.root.in_class.text), size_hint=(0.8,1), buttons=[MDFlatButton(text='Thank You', on_release=self.close_dialog)])
-        self.dialog.open()
+        self.dialog.open()             # Greeting Dialog-Box
 
     def close_dialog(self,obj):
-        self.dialog.dismiss()
+        self.dialog.dismiss()         
 
-MainApp().run()
+MainApp().run()                    #Running the app.
 
-
+#Read more about KivyMD here ~ "https://kivymd.readthedocs.io/en/latest/"
