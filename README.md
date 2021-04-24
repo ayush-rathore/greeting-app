@@ -21,5 +21,5 @@ You can build this app for Android using Buildozer.
 
 ---
 # Screenshots
-![alt text](https://github.com/ayush-rathore/greeting-app/blob/master/1.png "HomeScreen")
-![alt text](https://github.com/ayush-rathore/greeting-app/blob/master/2.png "Greeting")
+![alt text](https://github.com/ayush-rathore/greeting-app/blob/master/Screenshots/1.png "HomeScreen")
+![alt text](https://github.com/ayush-rathore/greeting-app/blob/master/Screenshots/2.png "Greeting")
