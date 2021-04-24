@@ -1,5 +1,5 @@
 # About
-This app is written in Python. 
+This app is written using Python Language. 
 <p>It uses Kivy and KivyMD libraries for the Graphical Interface.</p>  
 
 ---
