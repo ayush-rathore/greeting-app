@@ -1,6 +1,6 @@
 # About
-This app is written in Python.  
-It uses Kivy and KivyMD libraries for the Graphical Interface.  
+This app is written in Python. 
+<p>It uses Kivy and KivyMD libraries for the Graphical Interface.</p>  
 
 ---
 
@@ -11,7 +11,7 @@ You can run this app via Terminal or compile the Android Package for the Phone.
  
 # Building
 You can build this app for Android using Buildozer.  
-Steps for Building the App:  
+<p>Steps for Building the App:</p>
 <p> 1. Install Buildozer from pip.</p>    
 <p> 2. Create the spec file using ~ 'buildozer init'</p>  
 <p> 3. Edit the spec file generated according to your needs.</p>  
