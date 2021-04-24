@@ -21,5 +21,5 @@ Steps for Building the App:
 
 ---
 # Screenshots
-https://github.com/ayush-rathore/greeting-app/blob/master/1.png
-https://github.com/ayush-rathore/greeting-app/blob/master/2.png
+![alt text](https://github.com/ayush-rathore/greeting-app/blob/master/1.png "HomeScreen")
+![alt text](https://github.com/ayush-rathore/greeting-app/blob/master/2.png "Greeting")
